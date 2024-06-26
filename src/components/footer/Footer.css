@@ -1,0 +1,14 @@
+body {
+    min-height: 217vh;
+    position: relative;
+    padding-bottom: 200px; 
+    box-sizing: border-box;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 130px; /* Altura do rodapé */
+  }

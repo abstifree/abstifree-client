@@ -1,0 +1,12 @@
+button:hover {
+    background-color: #333; /* Cor de fundo escura quando hover */
+    color: #fff; /* Cor do texto branca quando hover */
+    /* Adicione qualquer outra propriedade de estilo desejada para o efeito hover */
+}
+body {
+  
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background: rgb(250, 234, 234);
+  background-size: 120% 120%;
+}
