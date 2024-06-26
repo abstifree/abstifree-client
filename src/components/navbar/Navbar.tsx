@@ -90,14 +90,14 @@ function Navbar() {
   }
 
   return (  
-    <div className='bg-gradient-to-r from-blue-600 to-red-600 font-bold text-black flex justify-center w-full py-4'>
+    <div className="bg-gray-100 font-bold text-black flex justify-center w-full py-4">
     <div className="container flex justify-between text-lg ">
       <div>
         <Link to='/home' className='hover:underline'><img src={logo} alt="" className='App-logo' /></Link>
       </div>
   
       <div className='flex gap-4 items-center'>
-        <Link to='/sobrenos' className='hover:underline'>Sobre Nós</Link>
+        <Link to='/sobrenos' className='hover:underline'></Link>
         <Menu as="div" className="relative inline-block">
           <div className="flex group">
             <Menu.Button className="hoverNone transition duration-300 ease-in-out inline-flex w-full hover:underline">

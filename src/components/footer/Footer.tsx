@@ -7,7 +7,7 @@ import './Footer.css'
 function Footer() {
   return (
     
-    <footer className='bg-gradient-to-r from-blue-600 to-red-600 font-bold text-black flex justify-center w-full py-4'>
+    <footer className='bg-red-500 font-bold text-black flex justify-center w-full py-4'>
       <div className="container mx-auto">
         <div className="flex justify-center items-center">
           <div className="text-lg font-bold text-center">
