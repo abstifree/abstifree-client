@@ -1,0 +1,5 @@
+/* eu usei important para sobrecrever um css que estava forçando o hover e não sabia de forma alguma */
+.hoverNone:hover{
+    background-color: transparent !important;
+    color: black !important;
+}
