@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh; /* Mínimo de 100% da altura da viewport */
+  position: relative;
+  padding-bottom: 150px; /* Espaço abaixo do conteúdo para o rodapé */
+  box-sizing: border-box;
+}
+
+footer {
+  position: fixed; /* Fixa o rodapé na parte inferior da viewport */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Altura do rodapé */
+  background-color: #f0f0f0; /* Cor de fundo do rodapé (opcional) */
+  text-align: center; /* Centraliza o conteúdo do rodapé */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; /* Espaçamento interno para evitar que o texto encoste nas bordas */
+  box-sizing: border-box; /* Inclui padding e bordas no tamanho total */
+}
+
+.paragraph {
+  margin: 0; /* Remove margem padrão */
+  font-size: 12px; /* Tamanho de fonte responsivo */
+}
+
+.paragraphBold {
+  margin: 0; /* Remove margem padrão */
+  font-size: 12px; /* Tamanho de fonte responsivo */
+  font-weight: bold; /* Texto em negrito */
+}
