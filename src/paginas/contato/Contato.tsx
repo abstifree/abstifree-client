@@ -38,6 +38,13 @@ const Contato: React.FC = () => {
       linkIn: 'https://www.linkedin.com/in/ec-silva',
     },
     {
+      name: 'Giovani Reis',
+      link: 'https://giolreis.github.io/',
+      title: 'Desenvolvedor FullStack',
+      img: ellenImage,
+      linkIn: 'https://www.linkedin.com/in/giovaniluizreis/',
+    },
+    {
       name: 'Larissa Sanches',
       link: 'https://github.com/LariSanches',
       title: 'Desenvolvedora FullStack',
