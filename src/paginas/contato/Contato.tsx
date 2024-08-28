@@ -9,6 +9,7 @@ import ellenImage from '../../assets/img_equipe/ellen.jpg';
 import lariImage from '../../assets/img_equipe/lari.jpeg';
 import rodolfoImage from '../../assets/img_equipe/rodolfo.jpeg';
 import thiagoImage from '../../assets/img_equipe/thiago.jpg';
+import giovaniImage from '../../assets/img_equipe/giovani.jpg';
 
 interface TeamMember {
   name: string;
@@ -41,7 +42,7 @@ const Contato: React.FC = () => {
       name: 'Giovani Reis',
       link: 'https://giolreis.github.io/',
       title: 'Desenvolvedor FullStack',
-      img: ellenImage,
+      img: giovaniImage,
       linkIn: 'https://www.linkedin.com/in/giovaniluizreis/',
     },
     {
